@@ -12,7 +12,7 @@ header {
 
 .navbar {
     overflow: hidden;
-    background-color: rgb(66, 66, 66); 
+    background-color: rgb(15, 21, 82); 
     position: fixed;
     top: 0;
     left: 0;
@@ -37,6 +37,8 @@ header {
 
 .main {
     margin-top: 48px;
+    text-align: center;
+    font-size: 25px;
 }
 
 body {
@@ -58,6 +60,10 @@ h2 {
 
 .colorChangingLetter {
     transition: color 1000ms;
+}
+
+.contentMatter {
+    color: rgb(4, 4, 49);
 }
 
 
