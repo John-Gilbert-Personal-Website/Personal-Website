@@ -12,7 +12,7 @@ header {
 
 .navbar {
     overflow: hidden;
-    background-color: rgb(117, 117, 117); 
+    background-color: rgb(66, 66, 66); 
     position: fixed;
     top: 0;
     left: 0;
@@ -40,18 +40,25 @@ header {
 }
 
 body {
-    background-image: url("subpoena4.png");
+    background-image: url("subpoena7.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center 45px;
     background-size: cover;
     font-family: "Alegreya Sans"; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
 
 h2 {
-    font-size: 250px;
+    font-size: 11vw;
 }
 
+.colorChangingLetter {
+    transition: color 1000ms;
+}
 
 
 
